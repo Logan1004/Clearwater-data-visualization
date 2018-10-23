@@ -66,6 +66,8 @@ $ brew cask install docker
 
 **步骤二： 配置镜像加速器：**右键点击桌面顶栏的 docker 图标，选择 Preferences ，在 Daemon 标签下的 Registry mirrors 列表中将加速器地址加到"registry-mirrors"的数组里，点击 Apply & Restart按钮，等待Docker重启并应用配置的镜像加速器。
 
+**另：**有ssr或者vpn的同学也可以尝试挂上ssr/vpn进行下载，总体的下载时间在1个小时左右，中间如果间断可以重新执行命令，系统会默认从你上次未完成的位置开始下载
+
 ### 补充： Ubuntu 系统 Docker安装 与问题总结
 
 > 2018 / 10 / 15   梁琛
